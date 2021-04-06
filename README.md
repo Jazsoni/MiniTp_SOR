@@ -1,10 +1,6 @@
 # SOR-Semáforos-1S-2021
 Trabajo Práctico Semáforos primer semestre año 2021
 
-# README.MD
-Making attractive and usable readme's. 
-This is a short description about the content of my proyect. This text have to be simple and explicit.
-
 ## Content
 This proyect has two branches: develop1 and develop2. **develop1** contains the tests of the repositories and **develop2** contains the test of the use cases.
 
