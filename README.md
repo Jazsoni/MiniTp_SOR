@@ -1,25 +1,19 @@
 # SOR-Semáforos-1S-2021
 Trabajo Práctico Semáforos primer semestre año 2021
 
-## Content
-This proyect has two branches: develop1 and develop2. **develop1** contains the tests of the repositories and **develop2** contains the test of the use cases.
+## Subway Argento
+Este proyecto fue desarrollado con el fin de demostrar los conocimientos aprendidos sobre el uso de semaforos en SOR.
 
-## Demo
-If you want to see the demo of this proyect deployed, you can visit [Demo of the proyect](https://anabelisa.co/tips-para-hacer-un-buen-readme-md/)
+## Requisitos
+*Un sistema operativo que posea una terminal de linux
+*Tener instalado el programa gcc para poder compilar el archivo Semaphores.C
 
-## How to clone
-If you have special requirements, you have to list it step by step.
-* This is the first step
-* Then you have to do this
-* Finally do this
+## Como correrlo en la PC
+*Se debe descargar el archivo Semaphores.C
+*Abrir una terminal y ubicar el archivo 
+*Ejecutar el archivo con el comando: 
+*Ver el resultado
 
-Markdown has enumation and nested lists.
-
-## Installation
-To install and run this proyect just type and execute
-```bash
-npm install
-```
 ## Preview
 Insert here an image of the preview if your project has one. The image can be into the project, you have to indicate the route and look like this.
 
