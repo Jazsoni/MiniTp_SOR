@@ -25,6 +25,7 @@ struct semaforos {
 
 //Creo estructura de semaforos compartidos por los equipos
 struct semaforos_compartidos {
+    sem_t sem_imprimir_mensaje;
 	sem_t sem_sazonar_mezcla;
 	sem_t sem_freir_milanesa;
 	sem_t sem_hornear_pan;
@@ -107,23 +108,33 @@ void obtenerReceta(struct accion *acciones){
 
 //Funcion para imprimir las acciones y los ingredientes de la accion
 void* imprimirAccion(void *data, char *accionIn) {
+    sem_wait(&semaforos_c->sem_imprimir_mensaje);
+    FILE* fichero;
+    fichero = fopen("ResultadoFinal.txt", "a");
+    
 	struct parametro *mydata = data;
 	int i;
 	for(i = 0; i < LIMITE_ACCIONES; i++){
 		//Pregunto si la accion del array es igual a la pasada por parametro (si es igual la funcion strcmp devuelve cero)
 		if(strcmp(mydata->pasos_param[i].nombre_accion, accionIn) == 0){
+        fprintf(fichero,"\tEquipo %d esta: %s \n " , mydata->equipo_param, mydata->pasos_param[i].nombre_accion);
 		printf("\tEquipo %d esta: %s \n " , mydata->equipo_param, mydata->pasos_param[i].nombre_accion);
 		int h;
+        fprintf(fichero,"\tEquipo %d -----------ingredientes : ----------\n",mydata->equipo_param);
 		printf("\tEquipo %d -----------ingredientes : ----------\n",mydata->equipo_param); 
 			for(h = 0; h < LIMITE_INGREDIENTES; h++) {
 				//Consulto si la posicion tiene valor porque no se cuantos ingredientes tengo por accion 
 				if(strlen(mydata->pasos_param[i].ingredientes[h].nombre_ingrediente) != 0) {
-							printf("\tEquipo %d ingrediente  %d : %s \n",mydata->equipo_param,h,mydata->pasos_param[i].ingredientes[h].nombre_ingrediente);
+                    fprintf(fichero,"\tEquipo %d ingrediente  %d : %s \n",mydata->equipo_param,h,mydata->pasos_param[i].ingredientes[h].nombre_ingrediente);
+					printf("\tEquipo %d ingrediente  %d : %s \n",mydata->equipo_param,h,mydata->pasos_param[i].ingredientes[h].nombre_ingrediente);
 				}
 			}
 		}		
 	}
 	printf("\t----------------------------------------------\n\n\n"); 
+    fprintf(fichero, "\t----------------------------------------------\n\n\n");
+    fclose(fichero);
+    sem_post(&semaforos_c->sem_imprimir_mensaje);
 }
 
 //--------------------Comienzan las funciones que ejecutan los pasos de la receta--------------------------
@@ -429,6 +440,7 @@ int main ()
 {
 	//Inicializo los semaforos compartidos
 	semaforos_c = malloc(sizeof(struct semaforos_compartidos));	
+    sem_init(&(semaforos_c->sem_imprimir_mensaje),0,1);  
 	sem_init(&(semaforos_c->sem_sazonar_mezcla),0,1);   
 	sem_init(&(semaforos_c->sem_freir_milanesa),0,1);   
 	sem_init(&(semaforos_c->sem_hornear_pan),0,2);      
@@ -491,6 +503,16 @@ int main ()
 	printf("El segundo lugar es para el Equipo %d \n",ordenFinalizacionEquipos[1]);
 	printf("El tercer lugar es para el Equipo %d \n",ordenFinalizacionEquipos[2]);
 	printf("El último lugar es para el Equipo %d \n",ordenFinalizacionEquipos[3]);
+    
+    //Imprimo resultados en el archivo txt
+    FILE* fichero;
+    fichero = fopen("ResultadoFinal.txt", "a");
+    fprintf(fichero,"Estos son los resultados: \n");
+	fprintf(fichero,"El primer lugar es para el Equipo %d \n",ordenFinalizacionEquipos[0]);
+	fprintf(fichero,"El segundo lugar es para el Equipo %d \n",ordenFinalizacionEquipos[1]);
+	fprintf(fichero,"El tercer lugar es para el Equipo %d \n",ordenFinalizacionEquipos[2]);
+	fprintf(fichero,"El último lugar es para el Equipo %d \n",ordenFinalizacionEquipos[3]);
+    fclose(fichero);
 	
 	//Destruyo los semaforos compartidos
 	sem_destroy(&(semaforos_c->sem_sazonar_mezcla));
