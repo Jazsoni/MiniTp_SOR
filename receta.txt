@@ -1,0 +1,57 @@
+Accion:
+Picando vegetales
+Ingredientes:
+Ajo
+Perejil
+
+Accion:
+Mezclando vegetales con huevo
+Ingredientes:
+Ajo
+Perejil
+Huevo
+
+Accion:
+Sazonando
+Ingredientes:
+Sal
+
+Accion:
+Agregando carne a la mezcla
+Ingredientes:
+Carne
+
+Accion:
+Empanando carne
+Ingredientes:
+Carne maserada
+Pan rayado
+
+Accion:
+Fritando milanesa
+Ingredientes:
+Milanesa
+Aceite
+
+Accion:
+Horneando pan
+Ingredientes:
+Masa
+
+Accion:
+Cortando vegetales
+Ingredientes:
+Lechuga fresca
+Tomate
+Cebolla morada
+Pepino 
+
+Accion:
+Armando sandwich
+Ingredientes:
+Milanesa
+Pan recien horneado
+Lechuga fresca
+Tomate
+Cebolla morada
+Pepino 
