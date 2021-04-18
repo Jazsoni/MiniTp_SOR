@@ -1,4 +1,4 @@
-# SOR-Semáforos-1S-2021
+## SOR-Semáforos-1S-2021
 Trabajo Práctico Semáforos primer semestre año 2021
 
 ## Subway Argento
@@ -6,14 +6,14 @@ Este proyecto fue desarrollado con el fin de demostrar los conocimientos aprendi
 
 ## Requisitos
 * Un sistema operativo que posea una terminal de linux
-* Tener instalado el programa gcc para poder compilar el archivo Semaphores.C
+* Tener instalado el programa gcc para poder compilar el archivo subwayArgento.c
 
 ## Como correrlo en la PC
-* Se debe descargar el archivo Semaphores.C
+* Se debe descargar el archivo subwayArgento.c
 * Abrir una terminal y ubicar el archivo 
 * Ejecutar el archivo con el comando: 
 ```bash
-gcc Semaphores.c -o ejecutable -lpthread
+gcc subwayArgento.c -o ejecutable -lpthread
 ./ejecutable
 ```
 * Ver el resultado
@@ -23,6 +23,17 @@ Insert here an image of the preview if your project has one. The image can be in
 
 ![](/preview.jpg)
 
-### Notes
+## Documentación del desarrollo
+Para el desarrollo de este programa se 
+Este programa utiliza 
+* Obtener receta desde archivo receta.txt
+* Imprimir accion
+* Ejecución de acciones
+* Semaforos compartidos dentro de la ejecución del equipo
+* Semaforos compartidos entre equipos
+
+
+
+## Notes
 If you want to learn all about markdown i recommend you visit the site [markdown.es](https://markdown.es/sintaxis-markdown/)
 
