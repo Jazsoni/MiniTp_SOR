@@ -13,7 +13,6 @@
 
 //Creo estructura de semaforos 
 struct semaforos {
-	sem_t sem_picar_vegetales;
     sem_t sem_mezclar;
 	sem_t sem_sazonar_mezcla;
 	sem_t sem_agregar_carne;
@@ -290,7 +289,6 @@ void* armarSandwich(void *data) {
 
 void* ejecutarReceta(void *i) {
 	//Variables semaforos
-	sem_t sem_picar_vegetales;
 	sem_t sem_mezclar;
 	sem_t sem_sazonar_mezcla;
 	sem_t sem_agregar_carne;
@@ -323,7 +321,6 @@ void* ejecutarReceta(void *i) {
 	pthread_data->equipo_param = p;
 
 	//Seteo semaforos
-	pthread_data->semaforos_param->sem_picar_vegetales = sem_picar_vegetales;
 	pthread_data->semaforos_param->sem_mezclar = sem_mezclar;	
 	pthread_data->semaforos_param->sem_sazonar_mezcla = sem_sazonar_mezcla;
 	pthread_data->semaforos_param->sem_agregar_carne = sem_agregar_carne;
@@ -337,7 +334,6 @@ void* ejecutarReceta(void *i) {
 	obtenerReceta(pthread_data->pasos_param);
 	
 	//Inicializo los semaforos
-	sem_init(&(pthread_data->semaforos_param->sem_picar_vegetales),0,0);
 	sem_init(&(pthread_data->semaforos_param->sem_mezclar),0,0);
 	sem_init(&(pthread_data->semaforos_param->sem_sazonar_mezcla),0,0);   
 	sem_init(&(pthread_data->semaforos_param->sem_agregar_carne),0,0);
@@ -415,7 +411,6 @@ void* ejecutarReceta(void *i) {
      }
 	 
 	//Destruyo los semaforos 
-	sem_destroy(&sem_picar_vegetales);
 	sem_destroy(&sem_mezclar);
 	sem_destroy(&sem_sazonar_mezcla);	
 	sem_destroy(&sem_agregar_carne);
