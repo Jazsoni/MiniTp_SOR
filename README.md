@@ -82,6 +82,8 @@ Estas habilitaciones de los semáforos internos de cada equipo marcan el flujo d
 * sem_sazonar_mezcla   (Limita el uso del salero a un equipo a la vez)
 * sem_freir_milanesa       (Limita el uso del sartén a un equipo a la vez)
 * sem_hornear_pan	   (Limita el uso del horno a dos equipos a la vez)
+* sem_marcar_llegada  (Limita el uso de la variable ordenFinalizacionEquipos a un equipo a la vez)
+* sem_imprimir_mensaje  (Limita el uso de la escritura por pantalla y por archivo a un equipo a la vez)
 
 Entonces las siguientes funciones además de esperar el semáforo interno que cada una tiene asignado tienen que esperar también el semáforo global que le corresponda:
 * sazonar()	      => espera el semáforo global y el local “sem_sazonar_mezcla”. 
