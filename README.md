@@ -61,14 +61,14 @@ Luego en el apartado de ingredientes de cada acción puede escribirse lo que sea
 ## Semáforos compartidos dentro de la ejecución de cada equipo
 Como existe un orden en el cual se va ejecutando la receta tenemos que implementar una serie de semáforos para hacer que la ejecución respete ese orden.
 Para ello se crearon los siguientes semáforos que son compartidos dentro del hilo del equipo:
-sem_mezclar
-sem_sazonar_mezcla
-sem_agregar_carne
-sem_empanar_carne
-sem_freir_milanesa
-sem_hornear_pan
-sem_cortar_vegetales
-sem_armar_sandwich
+* sem_mezclar
+* sem_sazonar_mezcla
+* sem_agregar_carne
+* sem_empanar_carne
+* sem_freir_milanesa
+* sem_hornear_pan
+* sem_cortar_vegetales
+* sem_armar_sandwich
 
 Cada uno de estos semáforos son habilitados dentro de cada función de los pasos de la receta:
 * picarVegetales()   => habilita el semáforo “sem_mezclar”
