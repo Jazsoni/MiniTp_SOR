@@ -51,7 +51,7 @@ Cada nombre de acción debe corresponderse con el nombre que utiliza cada funci�
 
 La variable *accion almacena el nombre “Picando vegetales\n” y este se corresponde con una de las acciones que se especifica en el archivo “receta.txt”. Hay que tener en cuenta que el ‘\n’ que realiza el salto de línea no hay que escribirlo en el archivo .txt ya que este ya es interpretado de una forma en la cual se puede ver ese salto de línea desde el programa. 
 
-Luego en el apartado de ingredientes de cada acción puede escribirse lo que sea y no tiene que corresponderse con nada escrito en el código.
+Luego en el apartado de ingredientes de cada acción puede escribirse lo que sea.
 
 ## Semáforos compartidos dentro de la ejecución de cada equipo
 Como existe un orden en el cual se va ejecutando la receta tenemos que implementar una serie de semáforos para hacer que la ejecución respete ese orden.
