@@ -34,7 +34,7 @@ Ingredientes:
 [nombre_ingrediente_1]
 [nombre_ingrediente_2]
 [nombre_ingrediente_n]
-[salto de línea ‘\n’]
+[enter]
 ```
 Por ejemplo:
 
