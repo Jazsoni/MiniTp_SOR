@@ -9,8 +9,8 @@ Este proyecto fue desarrollado con el fin de demostrar los conocimientos aprendi
 * Tener instalado el programa gcc para poder compilar el archivo subwayArgento.c
 
 ## Como correrlo en la PC
-* Se debe descargar el archivo subwayArgento.c
-* Abrir una terminal y ubicar el archivo 
+* Se deben descargar los archivos receta.txt y subwayArgento.c en un mismo directorio
+* Abrir una terminal y ubicar el archivo subwayArgento.c
 * Ejecutar el archivo con el comando: 
 ```bash
 gcc subwayArgento.c -o ejecutable -lpthread
