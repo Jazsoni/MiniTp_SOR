@@ -42,10 +42,14 @@ Ingredientes:
 [salto de línea ‘\n’]
 ```
 Por ejemplo:
+
+
 ![Captura de pantalla de 2021-04-18 13-06-38](https://user-images.githubusercontent.com/24569650/115155917-56471f80-a058-11eb-90ee-d38ea0789947.png)
 
 
 Cada nombre de acción debe corresponderse con el nombre que utiliza cada función que ejecutará un paso de la receta. Aquí presentamos un ejemplo:
+
+
 ![Captura de pantalla de 2021-04-18 13-14-20](https://user-images.githubusercontent.com/24569650/115155920-5e06c400-a058-11eb-8b91-a989b3020ddc.png)
 
 
