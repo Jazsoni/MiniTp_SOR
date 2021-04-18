@@ -1,0 +1,397 @@
+	Equipo 1 esta: Picando vegetales
+ 
+ 	Equipo 1 -----------ingredientes : ----------
+	Equipo 1 ingrediente  0 : Ajo
+ 
+	Equipo 1 ingrediente  1 : Perejil
+ 
+	----------------------------------------------
+
+
+	Equipo 3 esta: Picando vegetales
+ 
+ 	Equipo 3 -----------ingredientes : ----------
+	Equipo 3 ingrediente  0 : Ajo
+ 
+	Equipo 3 ingrediente  1 : Perejil
+ 
+	----------------------------------------------
+
+
+	Equipo 2 esta: Picando vegetales
+ 
+ 	Equipo 2 -----------ingredientes : ----------
+	Equipo 2 ingrediente  0 : Ajo
+ 
+	Equipo 2 ingrediente  1 : Perejil
+ 
+	----------------------------------------------
+
+
+	Equipo 4 esta: Picando vegetales
+ 
+ 	Equipo 4 -----------ingredientes : ----------
+	Equipo 4 ingrediente  0 : Ajo
+ 
+	Equipo 4 ingrediente  1 : Perejil
+ 
+	----------------------------------------------
+
+
+	Equipo 3 esta: Mezclando vegetales con huevo
+ 
+ 	Equipo 3 -----------ingredientes : ----------
+	Equipo 3 ingrediente  0 : Ajo
+ 
+	Equipo 3 ingrediente  1 : Perejil
+ 
+	Equipo 3 ingrediente  2 : Huevo
+ 
+	----------------------------------------------
+
+
+	Equipo 2 esta: Mezclando vegetales con huevo
+ 
+ 	Equipo 2 -----------ingredientes : ----------
+	Equipo 2 ingrediente  0 : Ajo
+ 
+	Equipo 2 ingrediente  1 : Perejil
+ 
+	Equipo 2 ingrediente  2 : Huevo
+ 
+	----------------------------------------------
+
+
+	Equipo 4 esta: Mezclando vegetales con huevo
+ 
+ 	Equipo 4 -----------ingredientes : ----------
+	Equipo 4 ingrediente  0 : Ajo
+ 
+	Equipo 4 ingrediente  1 : Perejil
+ 
+	Equipo 4 ingrediente  2 : Huevo
+ 
+	----------------------------------------------
+
+
+	Equipo 1 esta: Mezclando vegetales con huevo
+ 
+ 	Equipo 1 -----------ingredientes : ----------
+	Equipo 1 ingrediente  0 : Ajo
+ 
+	Equipo 1 ingrediente  1 : Perejil
+ 
+	Equipo 1 ingrediente  2 : Huevo
+ 
+	----------------------------------------------
+
+
+	Equipo 2 esta: Sazonando
+ 
+ 	Equipo 2 -----------ingredientes : ----------
+	Equipo 2 ingrediente  0 : Sal
+ 
+	----------------------------------------------
+
+
+	Equipo 3 esta: Sazonando
+ 
+ 	Equipo 3 -----------ingredientes : ----------
+	Equipo 3 ingrediente  0 : Sal
+ 
+	----------------------------------------------
+
+
+	Equipo 2 esta: Agregando carne a la mezcla
+ 
+ 	Equipo 2 -----------ingredientes : ----------
+	Equipo 2 ingrediente  0 : Carne
+ 
+	----------------------------------------------
+
+
+	Equipo 4 esta: Sazonando
+ 
+ 	Equipo 4 -----------ingredientes : ----------
+	Equipo 4 ingrediente  0 : Sal
+ 
+	----------------------------------------------
+
+
+	Equipo 3 esta: Agregando carne a la mezcla
+ 
+ 	Equipo 3 -----------ingredientes : ----------
+	Equipo 3 ingrediente  0 : Carne
+ 
+	----------------------------------------------
+
+
+	Equipo 2 esta: Empanando carne
+ 
+ 	Equipo 2 -----------ingredientes : ----------
+	Equipo 2 ingrediente  0 : Carne maserada
+ 
+	Equipo 2 ingrediente  1 : Pan rayado
+ 
+	----------------------------------------------
+
+
+	Equipo 3 esta: Empanando carne
+ 
+ 	Equipo 3 -----------ingredientes : ----------
+	Equipo 3 ingrediente  0 : Carne maserada
+ 
+	Equipo 3 ingrediente  1 : Pan rayado
+ 
+	----------------------------------------------
+
+
+	Equipo 2 esta: Fritando milanesa
+ 
+ 	Equipo 2 -----------ingredientes : ----------
+	Equipo 2 ingrediente  0 : Milanesa
+ 
+	Equipo 2 ingrediente  1 : Aceite
+ 
+	----------------------------------------------
+
+
+	Equipo 4 esta: Agregando carne a la mezcla
+ 
+ 	Equipo 4 -----------ingredientes : ----------
+	Equipo 4 ingrediente  0 : Carne
+ 
+	----------------------------------------------
+
+
+	Equipo 1 esta: Sazonando
+ 
+ 	Equipo 1 -----------ingredientes : ----------
+	Equipo 1 ingrediente  0 : Sal
+ 
+	----------------------------------------------
+
+
+	Equipo 3 esta: Fritando milanesa
+ 
+ 	Equipo 3 -----------ingredientes : ----------
+	Equipo 3 ingrediente  0 : Milanesa
+ 
+	Equipo 3 ingrediente  1 : Aceite
+ 
+	----------------------------------------------
+
+
+	Equipo 2 esta: Horneando pan
+ 
+ 	Equipo 2 -----------ingredientes : ----------
+	Equipo 2 ingrediente  0 : Masa
+ 
+	----------------------------------------------
+
+
+	Equipo 4 esta: Empanando carne
+ 
+ 	Equipo 4 -----------ingredientes : ----------
+	Equipo 4 ingrediente  0 : Carne maserada
+ 
+	Equipo 4 ingrediente  1 : Pan rayado
+ 
+	----------------------------------------------
+
+
+	Equipo 1 esta: Agregando carne a la mezcla
+ 
+ 	Equipo 1 -----------ingredientes : ----------
+	Equipo 1 ingrediente  0 : Carne
+ 
+	----------------------------------------------
+
+
+	Equipo 3 esta: Horneando pan
+ 
+ 	Equipo 3 -----------ingredientes : ----------
+	Equipo 3 ingrediente  0 : Masa
+ 
+	----------------------------------------------
+
+
+	Equipo 2 esta: Cortando vegetales
+ 
+ 	Equipo 2 -----------ingredientes : ----------
+	Equipo 2 ingrediente  0 : Lechuga fresca
+ 
+	Equipo 2 ingrediente  1 : Tomate
+ 
+	Equipo 2 ingrediente  2 : Cebolla morada
+ 
+	Equipo 2 ingrediente  3 : Pepino 
+ 
+	----------------------------------------------
+
+
+	Equipo 4 esta: Fritando milanesa
+ 
+ 	Equipo 4 -----------ingredientes : ----------
+	Equipo 4 ingrediente  0 : Milanesa
+ 
+	Equipo 4 ingrediente  1 : Aceite
+ 
+	----------------------------------------------
+
+
+	Equipo 1 esta: Empanando carne
+ 
+ 	Equipo 1 -----------ingredientes : ----------
+	Equipo 1 ingrediente  0 : Carne maserada
+ 
+	Equipo 1 ingrediente  1 : Pan rayado
+ 
+	----------------------------------------------
+
+
+	Equipo 2 esta: Armando sandwich
+ 
+ 	Equipo 2 -----------ingredientes : ----------
+	Equipo 2 ingrediente  0 : Milanesa
+ 
+	Equipo 2 ingrediente  1 : Pan recien horneado
+ 
+	Equipo 2 ingrediente  2 : Lechuga fresca
+ 
+	Equipo 2 ingrediente  3 : Tomate
+ 
+	Equipo 2 ingrediente  4 : Cebolla morada
+ 
+	Equipo 2 ingrediente  5 : Pepino 
+ 
+	----------------------------------------------
+
+
+	Equipo 3 esta: Cortando vegetales
+ 
+ 	Equipo 3 -----------ingredientes : ----------
+	Equipo 3 ingrediente  0 : Lechuga fresca
+ 
+	Equipo 3 ingrediente  1 : Tomate
+ 
+	Equipo 3 ingrediente  2 : Cebolla morada
+ 
+	Equipo 3 ingrediente  3 : Pepino 
+ 
+	----------------------------------------------
+
+
+	Equipo 4 esta: Horneando pan
+ 
+ 	Equipo 4 -----------ingredientes : ----------
+	Equipo 4 ingrediente  0 : Masa
+ 
+	----------------------------------------------
+
+
+	Equipo 1 esta: Fritando milanesa
+ 
+ 	Equipo 1 -----------ingredientes : ----------
+	Equipo 1 ingrediente  0 : Milanesa
+ 
+	Equipo 1 ingrediente  1 : Aceite
+ 
+	----------------------------------------------
+
+
+	Equipo 3 esta: Armando sandwich
+ 
+ 	Equipo 3 -----------ingredientes : ----------
+	Equipo 3 ingrediente  0 : Milanesa
+ 
+	Equipo 3 ingrediente  1 : Pan recien horneado
+ 
+	Equipo 3 ingrediente  2 : Lechuga fresca
+ 
+	Equipo 3 ingrediente  3 : Tomate
+ 
+	Equipo 3 ingrediente  4 : Cebolla morada
+ 
+	Equipo 3 ingrediente  5 : Pepino 
+ 
+	----------------------------------------------
+
+
+	Equipo 4 esta: Cortando vegetales
+ 
+ 	Equipo 4 -----------ingredientes : ----------
+	Equipo 4 ingrediente  0 : Lechuga fresca
+ 
+	Equipo 4 ingrediente  1 : Tomate
+ 
+	Equipo 4 ingrediente  2 : Cebolla morada
+ 
+	Equipo 4 ingrediente  3 : Pepino 
+ 
+	----------------------------------------------
+
+
+	Equipo 1 esta: Horneando pan
+ 
+ 	Equipo 1 -----------ingredientes : ----------
+	Equipo 1 ingrediente  0 : Masa
+ 
+	----------------------------------------------
+
+
+	Equipo 4 esta: Armando sandwich
+ 
+ 	Equipo 4 -----------ingredientes : ----------
+	Equipo 4 ingrediente  0 : Milanesa
+ 
+	Equipo 4 ingrediente  1 : Pan recien horneado
+ 
+	Equipo 4 ingrediente  2 : Lechuga fresca
+ 
+	Equipo 4 ingrediente  3 : Tomate
+ 
+	Equipo 4 ingrediente  4 : Cebolla morada
+ 
+	Equipo 4 ingrediente  5 : Pepino 
+ 
+	----------------------------------------------
+
+
+	Equipo 1 esta: Cortando vegetales
+ 
+ 	Equipo 1 -----------ingredientes : ----------
+	Equipo 1 ingrediente  0 : Lechuga fresca
+ 
+	Equipo 1 ingrediente  1 : Tomate
+ 
+	Equipo 1 ingrediente  2 : Cebolla morada
+ 
+	Equipo 1 ingrediente  3 : Pepino 
+ 
+	----------------------------------------------
+
+
+	Equipo 1 esta: Armando sandwich
+ 
+ 	Equipo 1 -----------ingredientes : ----------
+	Equipo 1 ingrediente  0 : Milanesa
+ 
+	Equipo 1 ingrediente  1 : Pan recien horneado
+ 
+	Equipo 1 ingrediente  2 : Lechuga fresca
+ 
+	Equipo 1 ingrediente  3 : Tomate
+ 
+	Equipo 1 ingrediente  4 : Cebolla morada
+ 
+	Equipo 1 ingrediente  5 : Pepino 
+ 
+	----------------------------------------------
+
+
+Estos son los resultados: 
+El primer lugar es para el Equipo 2 
+El segundo lugar es para el Equipo 3 
+El tercer lugar es para el Equipo 4 
+El ultimo lugar es para el Equipo 1 
